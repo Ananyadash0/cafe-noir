@@ -1,0 +1,130 @@
+/* =========================================
+   Café Noir - Custom CSS
+   ========================================= */
+
+
+/* ---------- Card Hover Effects ---------- */
+
+.cafe-card {
+    border: 1px solid transparent;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.cafe-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    border-color: #C89B6D;
+}
+
+.cafe-card img {
+    transition: transform 0.4s ease;
+}
+
+.cafe-card:hover img {
+    transform: scale(1.05);
+}
+
+
+/* ---------- Button Hover Effects ---------- */
+
+.cafe-button .wp-block-button__link {
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.cafe-button .wp-block-button__link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ---------- Sticky Header ---------- */
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+
+/* ---------- About Page Cards ---------- */
+
+.about-card {
+    padding: 30px 20px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+    border-color: #C89B6D;
+}
+
+
+/* ---------- Gallery Image Effects ---------- */
+
+.gallery-image {
+    height: 280px !important;
+    overflow: hidden !important;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.gallery-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    transition: transform 0.4s ease;
+}
+
+.gallery-image:hover img {
+    transform: scale(1.05);
+}
+
+
+/* ---------- Review Cards ---------- */
+
+.review-card {
+    padding: 30px 25px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+    border-color: #C89B6D;
+}
+
+
+/* ---------- Review Star Ratings ---------- */
+
+.rating-stars {
+    color: #C89B6D;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+
+/* ---------- Review Names ---------- */
+
+.review-name {
+    font-weight: 600;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+}
